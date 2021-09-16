@@ -1,0 +1,1236 @@
+fileFormatVersion: 2
+guid: 98553bcb38461264e993abf1a1d50717
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4579742269089811275
+    second: frisky-girl-game-sprites-vector-21861341_0
+  - first:
+      213: -6298585407121450912
+    second: frisky-girl-game-sprites-vector-21861341_1
+  - first:
+      213: -6844330169504440892
+    second: frisky-girl-game-sprites-vector-21861341_2
+  - first:
+      213: 582470796269782337
+    second: frisky-girl-game-sprites-vector-21861341_3
+  - first:
+      213: -767562050979314535
+    second: frisky-girl-game-sprites-vector-21861341_4
+  - first:
+      213: 161157630802496155
+    second: frisky-girl-game-sprites-vector-21861341_5
+  - first:
+      213: -8681302381634971332
+    second: frisky-girl-game-sprites-vector-21861341_6
+  - first:
+      213: 2731631710273869575
+    second: frisky-girl-game-sprites-vector-21861341_7
+  - first:
+      213: -2399805332999381101
+    second: frisky-girl-game-sprites-vector-21861341_8
+  - first:
+      213: 3139076863505781119
+    second: frisky-girl-game-sprites-vector-21861341_9
+  - first:
+      213: 351978184107627345
+    second: frisky-girl-game-sprites-vector-21861341_10
+  - first:
+      213: -2223260124298391736
+    second: frisky-girl-game-sprites-vector-21861341_11
+  - first:
+      213: 6784194924090698803
+    second: frisky-girl-game-sprites-vector-21861341_12
+  - first:
+      213: 5316219622621143281
+    second: frisky-girl-game-sprites-vector-21861341_13
+  - first:
+      213: -7137088371708623212
+    second: frisky-girl-game-sprites-vector-21861341_14
+  - first:
+      213: -351672028333950886
+    second: frisky-girl-game-sprites-vector-21861341_15
+  - first:
+      213: 2845459095252439642
+    second: frisky-girl-game-sprites-vector-21861341_16
+  - first:
+      213: 6302321401829693025
+    second: frisky-girl-game-sprites-vector-21861341_17
+  - first:
+      213: -6348596758072884499
+    second: frisky-girl-game-sprites-vector-21861341_18
+  - first:
+      213: 9205640880462204724
+    second: frisky-girl-game-sprites-vector-21861341_19
+  - first:
+      213: -9065458654546635205
+    second: frisky-girl-game-sprites-vector-21861341_20
+  - first:
+      213: -3804847961109945067
+    second: frisky-girl-game-sprites-vector-21861341_21
+  - first:
+      213: 5155007291533710908
+    second: frisky-girl-game-sprites-vector-21861341_22
+  - first:
+      213: 6518550850180314091
+    second: frisky-girl-game-sprites-vector-21861341_23
+  - first:
+      213: 7966052292009376533
+    second: frisky-girl-game-sprites-vector-21861341_24
+  - first:
+      213: 5112888627826629567
+    second: frisky-girl-game-sprites-vector-21861341_25
+  - first:
+      213: 1043407078862826951
+    second: frisky-girl-game-sprites-vector-21861341_26
+  - first:
+      213: -5177066111516759426
+    second: frisky-girl-game-sprites-vector-21861341_27
+  - first:
+      213: -3796935822215132771
+    second: frisky-girl-game-sprites-vector-21861341_29
+  - first:
+      213: 4087969688629174230
+    second: frisky-girl-game-sprites-vector-21861341_30
+  - first:
+      213: -8011663744359765294
+    second: frisky-girl-game-sprites-vector-21861341_31
+  - first:
+      213: -2413152750034822990
+    second: frisky-girl-game-sprites-vector-21861341_32
+  - first:
+      213: 5355341365861153362
+    second: frisky-girl-game-sprites-vector-21861341_33
+  - first:
+      213: -1428496030976505993
+    second: frisky-girl-game-sprites-vector-21861341_34
+  - first:
+      213: -1785746591813120455
+    second: frisky-girl-game-sprites-vector-21861341_35
+  - first:
+      213: -5158340203019969114
+    second: frisky-girl-game-sprites-vector-21861341_36
+  - first:
+      213: -6273606647453641325
+    second: frisky-girl-game-sprites-vector-21861341_37
+  - first:
+      213: -7459791512232638844
+    second: frisky-girl-game-sprites-vector-21861341_38
+  - first:
+      213: -1731319093173176645
+    second: frisky-girl-game-sprites-vector-21861341_39
+  - first:
+      213: 843245711805258742
+    second: frisky-girl-game-sprites-vector-21861341_40
+  - first:
+      213: 7149238860954548932
+    second: frisky-girl-game-sprites-vector-21861341_41
+  - first:
+      213: -6146532801667841410
+    second: frisky-girl-game-sprites-vector-21861341_42
+  - first:
+      213: 8285410971168894360
+    second: frisky-girl-game-sprites-vector-21861341_43
+  - first:
+      213: -3206400184492992190
+    second: frisky-girl-game-sprites-vector-21861341_44
+  - first:
+      213: 7278504658390019110
+    second: frisky-girl-game-sprites-vector-21861341_45
+  - first:
+      213: 8636810593496356000
+    second: frisky-girl-game-sprites-vector-21861341_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 459
+        width: 70
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b47f08bbac7170c0800000000000000
+      internalID: -4579742269089811275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 459
+        width: 72
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068111d81fde698a0800000000000000
+      internalID: -6298585407121450912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 459
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd23149fd0401a0800000000000000
+      internalID: -6844330169504440892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 459
+        width: 72
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14503b76a1a551800800000000000000
+      internalID: 582470796269782337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_4
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 459
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ce40a1621955f0800000000000000
+      internalID: -767562050979314535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 459
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a83d8e20c8c3200800000000000000
+      internalID: 161157630802496155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_6
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 461
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3915eaba71d58780800000000000000
+      internalID: -8681302381634971332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_7
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 460
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70711145194b8e520800000000000000
+      internalID: 2731631710273869575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 459
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fdb7ca3cd22bed0800000000000000
+      internalID: -2399805332999381101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_9
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 459
+        width: 69
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71d8eb96cd309b20800000000000000
+      internalID: 3139076863505781119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_10
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 464
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1531c682b4a72e400800000000000000
+      internalID: 351978184107627345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 320
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f47ef32b46521e0800000000000000
+      internalID: -2223260124298391736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 320
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c2f69d65d462e50800000000000000
+      internalID: 6784194924090698803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 320
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06b4a849107c940800000000000000
+      internalID: 5316219622621143281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_14
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 320
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4968cb990f7f3fc90800000000000000
+      internalID: -7137088371708623212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 320
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58b6b9472c9e1bf0800000000000000
+      internalID: -351672028333950886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 320
+        width: 70
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a521d63a8f91d7720800000000000000
+      internalID: 2845459095252439642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_17
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 320
+        width: 73
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16696608ce7567750800000000000000
+      internalID: 6302321401829693025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 320
+        width: 75
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de28ed482e045e7a0800000000000000
+      internalID: -6348596758072884499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_19
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 320
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f83c17b9101cf70800000000000000
+      internalID: 9205640880462204724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_20
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 320
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36d1c17265013280800000000000000
+      internalID: -9065458654546635205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_21
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 320
+        width: 75
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5152ca530f6723bc0800000000000000
+      internalID: -3804847961109945067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_22
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 320
+        width: 79
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c365a6ab1d34a8740800000000000000
+      internalID: 5155007291533710908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 194
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be37153267b867a50800000000000000
+      internalID: 6518550850180314091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb7678a5a1d8e60800000000000000
+      internalID: 7966052292009376533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 195
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb9db52e11a4f640800000000000000
+      internalID: 5112888627826629567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_26
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 194
+        width: 82
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd2fb3c53dea7e00800000000000000
+      internalID: 1043407078862826951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 194
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aa4540dcd5728b0800000000000000
+      internalID: -5177066111516759426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_29
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 194
+        width: 85
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9949e99cf29e4bc0800000000000000
+      internalID: -3796935822215132771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df5e47d5c26bb830800000000000000
+      internalID: 4087969688629174230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 207
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da6f89a54ad0d090800000000000000
+      internalID: -8011663744359765294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 204
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8da69fb52c28ed0800000000000000
+      internalID: -2413152750034822990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_33
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 194
+        width: 131
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25afb13399ef15a40800000000000000
+      internalID: 5355341365861153362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 194
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7770796ad66fc2ce0800000000000000
+      internalID: -1428496030976505993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_35
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 194
+        width: 129
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e4d10afe0c737e0800000000000000
+      internalID: -1785746591813120455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6add0685ae4e968b0800000000000000
+      internalID: -5158340203019969114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_37
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 29
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3951ffd3efbafe8a0800000000000000
+      internalID: -6273606647453641325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_38
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 51
+        width: 87
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48646eea42f797890800000000000000
+      internalID: -7459791512232638844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 63
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6bf8a257e19f7e0800000000000000
+      internalID: -1731319093173176645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_40
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 36
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb1686d18fc3bb00800000000000000
+      internalID: 843245711805258742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_41
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 9
+        width: 84
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca3d91add2373360800000000000000
+      internalID: 7149238860954548932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_42
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 23
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e724d4c8bf023baa0800000000000000
+      internalID: -6146532801667841410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 18
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d65aa5161bbf270800000000000000
+      internalID: 8285410971168894360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_44
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 18
+        width: 90
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495c8b35049083d0800000000000000
+      internalID: -3206400184492992190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_45
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 18
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cec537c61720560800000000000000
+      internalID: 7278504658390019110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frisky-girl-game-sprites-vector-21861341_46
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 9
+        width: 110
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a45ea9997d1cd770800000000000000
+      internalID: 8636810593496356000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
