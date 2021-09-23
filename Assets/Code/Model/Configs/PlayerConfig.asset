@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55adbd5f7cd64e5fa85798742fb62c33, type: 3}
   m_Name: PlayerConfig
   m_EditorClassIdentifier: 
-  WalkSpeed: 3
+  WalkSpeed: 100
   AnimationSpeed: 10
   JumpForce: 7
   MovingTreshold: 0.1

@@ -1,3 +1,4 @@
+using System;
 using Code.Controllers;
 using Code.Model;
 using UnityEngine;
@@ -17,5 +18,10 @@ public class GameController : MonoBehaviour
     void Update()
     {
         _controllers.Execute(Time.deltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+        _controllers.FixedExecute(Time.fixedDeltaTime);
     }
 }
