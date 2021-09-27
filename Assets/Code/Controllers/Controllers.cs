@@ -3,12 +3,12 @@ using Code.Controllers.Interfaces;
 
 namespace Code.Controllers
 {
-    public sealed class Controllers:IInitializible, IExecute, IFixedExecute
+    public sealed class Controllers:IInitializible, IExecute, IFixedExecute, ILateExecute
     {
         private List<IInitializible> _initializibles = new List<IInitializible>();
         private List<IExecute> _executes = new List<IExecute>();
         private List<IFixedExecute> _fixedExecutes = new List<IFixedExecute>();
-
+        private List<ILateExecute> _lateExecutes = new List<ILateExecute>();
         public void Init()
         {
             foreach (var init in _initializibles)
@@ -25,6 +25,8 @@ namespace Code.Controllers
                 _executes.Add(execute);
             if (controllers is IFixedExecute fixedExecute)
                 _fixedExecutes.Add(fixedExecute);
+            if (controllers is ILateExecute lateExecute)
+                _lateExecutes.Add(lateExecute);
             return this;
         }
 
@@ -41,6 +43,14 @@ namespace Code.Controllers
             foreach (var fixedExecute in _fixedExecutes)
             {
                 fixedExecute.FixedExecute(fixedDeltaTIme);
+            }
+        }
+
+        public void LateExecute(float deltaTime)
+        {
+            foreach (var lateExecute in _lateExecutes)
+            {
+                lateExecute.LateExecute(deltaTime);
             }
         }
     }

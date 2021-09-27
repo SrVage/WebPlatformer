@@ -6,7 +6,8 @@ namespace Code.Controllers
 {
     public class GameInitialization
     {
-        public GameInitialization(Controllers controllers, SpriteAnimatorConfig spriteAnimatorConfig, PlayerConfig playerConfig)
+        public GameInitialization(Controllers controllers, SpriteAnimatorConfig spriteAnimatorConfig,
+            PlayerConfig playerConfig, Transform camera, SliderJoint2D sliderJoint2D)
         {
             var SpriteAnimator = new SpriteAnimator(spriteAnimatorConfig);
             controllers.Add(SpriteAnimator);
@@ -19,6 +20,10 @@ namespace Code.Controllers
             controllers.Add(TurrelAimingController);
             var bulletController = new BulletController(turrel, playerView.transform);
             controllers.Add(bulletController);
+            var CameraController = new CameraController(playerView.transform, camera);
+            controllers.Add(CameraController);
+            var LiftController = new LiftController(sliderJoint2D);
+            controllers.Add(LiftController);
         }
 
         private PlayerView CreatePlayer()

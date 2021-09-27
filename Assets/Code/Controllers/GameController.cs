@@ -8,10 +8,12 @@ public class GameController : MonoBehaviour
     private Controllers _controllers;
     [SerializeField] private SpriteAnimatorConfig _spriteAnimatorConfig;
     [SerializeField] private PlayerConfig _playerConfig;
+    [SerializeField] private Transform _camera;
+    [SerializeField] private SliderJoint2D _sliderJoint2D;
     void Start()
     {
         _controllers = new Controllers();
-        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig);
+        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig, _camera, _sliderJoint2D);
         _controllers.Init();
     }
 
@@ -23,5 +25,10 @@ public class GameController : MonoBehaviour
     private void FixedUpdate()
     {
         _controllers.FixedExecute(Time.fixedDeltaTime);
+    }
+
+    private void LateUpdate()
+    {
+        _controllers.LateExecute(Time.deltaTime);
     }
 }

@@ -79,18 +79,22 @@ namespace Code.Controllers
             _xAxisInput = Input.GetAxis("Horizontal");
             _yVelocity = _player.Rigidbody.velocity.y;
             _collisionController.Execute();
+            _player.Rigidbody.velocity =
+                _player.Rigidbody.velocity.Change(x: +(_collisionController.IsGround
+                    ? _collisionController.GroundVelocity.x
+                    : 0));
             bool goSideWay = Mathf.Abs(_xAxisInput) > _playerMoveParameters.MovingTreshold;
             if (_collisionController.IsGround)
             {
                 if (goSideWay) GoSideAway(fixedDeltaTime);
                 _spriteAnimator.StartAnimation(_player.SpriteRenderer,goSideWay?Track.Walk:Track.Idle,_playerMoveParameters.AnimationSpeed, true);
-                if (_doJump&&_yVelocity==0)
+                if (_doJump&&Mathf.Abs(_yVelocity)<5f)
                 {
-                    _player.Rigidbody.AddForce(_upMove*_playerMoveParameters.JumpForce, ForceMode2D.Impulse);
+                    _player.Rigidbody.AddForce(_upMove*_playerMoveParameters.JumpForce+(_collisionController.IsGround ? _collisionController.GroundVelocity:Vector3.zero), ForceMode2D.Impulse);
                 }
             }
             else
-            {
+            { 
                 if (goSideWay) GoSideAway(fixedDeltaTime);
                 if (Mathf.Abs(_yVelocity) > _playerMoveParameters.FlyTreshold)
                 {
