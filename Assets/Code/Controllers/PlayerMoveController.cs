@@ -38,13 +38,19 @@ namespace Code.Controllers
         private float _yVelocity;
         private float _xAxisInput;
         private bool _doJump;
-        
-        public PlayerMoveController(PlayerConfig config, PlayerView playerView, SpriteAnimator spriteAnimator)
+
+        public PlayerMoveController(PlayerConfig config, PlayerView playerView, SpriteAnimator spriteAnimator, PlayerHealthController healthController)
         {
             _playerMoveParameters = new PlayerMoveParameters(config);
             _player = playerView;
             _spriteAnimator = spriteAnimator;
             _collisionController = new CollisionController(_player.Collider);
+            healthController.Dead += DeadPlayer;
+        }
+
+        private void DeadPlayer()
+        {
+            _player.transform.position = Vector3.zero;
         }
 
         private bool IsGround()

@@ -20,7 +20,8 @@ namespace Code.Controllers
         {
             if (Vector3.Distance(_turrelTransform.position, _aimTransform.position) < 8 && _aimTransform.position.x<_turrelTransform.position.x)
             {
-                var aiming = (_aimTransform.position - _turrelTransform.position).normalized;
+                var distance = (_aimTransform.position - _turrelTransform.position).magnitude;
+                var aiming = ((_aimTransform.position+Vector3.up*distance/10) - _turrelTransform.position).normalized;
                 var angle = Vector3.Angle(aiming, Vector3.up);
                 var axis = Vector3.Cross(aiming, Vector3.up);
                 _turrelTransform.rotation = Quaternion.AngleAxis(Mathf.Clamp((180 - angle),50,90), axis);

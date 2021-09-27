@@ -11,10 +11,14 @@ namespace Code.Controllers
             var SpriteAnimator = new SpriteAnimator(spriteAnimatorConfig);
             controllers.Add(SpriteAnimator);
             var playerView = CreatePlayer();
-            var PlayerController = new PlayerMoveController(playerConfig, playerView, SpriteAnimator);
+            var turrel = CreateTurrel();
+            var PlayerHealthController = new PlayerHealthController(new PlayerHealth(3), playerView);
+            var PlayerController = new PlayerMoveController(playerConfig, playerView, SpriteAnimator, PlayerHealthController);
             controllers.Add(PlayerController);
-            var TurrelAimingController = new TurrelAiming(CreateTurrel(), playerView);
+            var TurrelAimingController = new TurrelAiming(turrel, playerView);
             controllers.Add(TurrelAimingController);
+            var bulletController = new BulletController(turrel, playerView.transform);
+            controllers.Add(bulletController);
         }
 
         private PlayerView CreatePlayer()
