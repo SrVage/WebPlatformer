@@ -519,6 +519,7 @@ MonoBehaviour:
   _playerConfig: {fileID: 11400000, guid: 1bcbd7689c52051499224591bc29a477, type: 2}
   _camera: {fileID: 519420032}
   _sliderJoint2D: {fileID: 1223908659}
+  _aiConfig: {fileID: 11400000, guid: b46bd9d642550e0409373db22f5ca294, type: 2}
 --- !u!1 &1223908657
 GameObject:
   m_ObjectHideFlags: 0

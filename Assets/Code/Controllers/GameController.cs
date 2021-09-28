@@ -10,10 +10,11 @@ public class GameController : MonoBehaviour
     [SerializeField] private PlayerConfig _playerConfig;
     [SerializeField] private Transform _camera;
     [SerializeField] private SliderJoint2D _sliderJoint2D;
+    [SerializeField] private AIConfig _aiConfig;
     void Start()
     {
         _controllers = new Controllers();
-        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig, _camera, _sliderJoint2D);
+        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig, _camera, _sliderJoint2D, _aiConfig);
         _controllers.Init();
     }
 

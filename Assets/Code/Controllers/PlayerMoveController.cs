@@ -88,7 +88,7 @@ namespace Code.Controllers
             {
                 if (goSideWay) GoSideAway(fixedDeltaTime);
                 _spriteAnimator.StartAnimation(_player.SpriteRenderer,goSideWay?Track.Walk:Track.Idle,_playerMoveParameters.AnimationSpeed, true);
-                if (_doJump&&Mathf.Abs(_yVelocity)<5f)
+                if (_doJump&&Mathf.Abs(_yVelocity)<_playerMoveParameters.FlyTreshold+Mathf.Abs(_collisionController.GroundVelocity.y))
                 {
                     _player.Rigidbody.AddForce(_upMove*_playerMoveParameters.JumpForce+(_collisionController.IsGround ? _collisionController.GroundVelocity:Vector3.zero), ForceMode2D.Impulse);
                 }
