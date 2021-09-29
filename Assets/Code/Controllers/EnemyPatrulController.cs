@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using System.Runtime.Serialization.Json;
 using Code.Controllers.Interfaces;
 using Code.Model;
+using Pathfinding;
 using UnityEngine;
 
 namespace Code.Controllers
@@ -8,19 +10,40 @@ namespace Code.Controllers
     public class EnemyPatrulController:IExecute
     {
         private List<AI> _enemies = new List<AI>();
-        public EnemyPatrulController(AIConfig config)
+        private Transform _target;
+        private Path _path;
+        public EnemyPatrulController(AIConfig config, Transform target)
         {
+            _target = target;
             foreach (var enemy in config._enemies)
             {
                 var enemi = GameObject.Instantiate(enemy.Enemy, enemy.WayPoints[0].position, Quaternion.identity);
                 var AI = new AI();
                 AI.Enemy = enemi;
                 AI.WayPoints = enemy.WayPoints;
+                AI.EnemyTransform = enemi.transform;
+                AI.CurrentTarget = AI.WayPoints[0].position;
+                AI.CurrentNumber = 0;
+                AI.Seeker = enemi.GetComponent<Seeker>();
+                _enemies.Add(AI);
             }
         }
         public void Execute(float deltaTime)
         {
-            //throw new System.NotImplementedException();
+            for (int i = 0; i < _enemies.Count; i++)
+            {
+                if ((_enemies[i].EnemyTransform.position - _enemies[i].CurrentTarget).magnitude > 0.5f)
+                {
+                    /*_enemies[i].EnemyTransform.position =
+                                            Vector3.Lerp(_enemies[i].EnemyTransform.position, _enemies[i].CurrentTarget, deltaTime);*/
+                }
+                else
+                {
+                    _enemies[i].CurrentNumber = (_enemies[i].CurrentNumber+1)%_enemies[i].WayPoints.Count;
+                    _enemies[i].CurrentTarget = _enemies[i].WayPoints[_enemies[i].CurrentNumber].position;
+                    _enemies[i].Seeker.StartPath(_enemies[i].EnemyTransform.position, _enemies[i].CurrentTarget);
+                }
+            }
         }
     }
 }

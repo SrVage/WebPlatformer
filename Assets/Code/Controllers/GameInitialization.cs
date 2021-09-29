@@ -24,7 +24,7 @@ namespace Code.Controllers
             controllers.Add(CameraController);
             var LiftController = new LiftController(sliderJoint2D);
             controllers.Add(LiftController);
-            var AI = new EnemyPatrulController(aiConfig);
+            var AI = new EnemyPatrulController(aiConfig, playerView.transform);
             controllers.Add(AI);
         }
 

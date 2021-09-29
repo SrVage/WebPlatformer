@@ -1,13 +1,19 @@
 using System;
+using System.Collections.Generic;
+using Pathfinding;
 using UnityEngine;
 
 namespace Code.Model
 {
     [Serializable]
-    public struct AI
+    public class AI
     {
         public GameObject Enemy;
-        public Transform[] WayPoints;
+        [NonSerialized] public Transform EnemyTransform;
+        public List<Transform> WayPoints;
+        [NonSerialized] public Vector3 CurrentTarget;
+        [NonSerialized] public int CurrentNumber;
+        [NonSerialized] public Seeker Seeker;
     }
     [CreateAssetMenu (fileName = "AIConfig", order = 3, menuName = "Config/AIConfig")]
     public class AIConfig:ScriptableObject
