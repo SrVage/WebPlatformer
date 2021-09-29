@@ -14,6 +14,7 @@ namespace Code.Model
         [NonSerialized] public Vector3 CurrentTarget;
         [NonSerialized] public int CurrentNumber;
         [NonSerialized] public Seeker Seeker;
+        [NonSerialized] public AIPath AIPath;
     }
     [CreateAssetMenu (fileName = "AIConfig", order = 3, menuName = "Config/AIConfig")]
     public class AIConfig:ScriptableObject
