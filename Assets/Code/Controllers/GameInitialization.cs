@@ -1,13 +1,14 @@
 using Code.Model;
 using Code.View;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Code.Controllers
 {
     public class GameInitialization
     {
         public GameInitialization(Controllers controllers, SpriteAnimatorConfig spriteAnimatorConfig,
-            PlayerConfig playerConfig, Transform camera, SliderJoint2D sliderJoint2D, AIConfig aiConfig)
+            PlayerConfig playerConfig, Transform camera, SliderJoint2D sliderJoint2D, AIConfig aiConfig,MapGenerator mapGenerator, Tilemap ground)
         {
             var SpriteAnimator = new SpriteAnimator(spriteAnimatorConfig);
             controllers.Add(SpriteAnimator);
@@ -26,6 +27,7 @@ namespace Code.Controllers
             controllers.Add(LiftController);
             var AI = new EnemyPatrulController(aiConfig, playerView.transform);
             controllers.Add(AI);
+            controllers.Add(new MapGeneratorController(mapGenerator, ground));
         }
 
         private PlayerView CreatePlayer()
