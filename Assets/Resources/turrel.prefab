@@ -127,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32c6ae2fdf71438dbb1c37d49489c96a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 6123999762435006855}
+  transform: {fileID: 5173468691322533027}
   AimTransform: {fileID: 2638923871953080585}
 --- !u!1 &7743789841462413192
 GameObject:

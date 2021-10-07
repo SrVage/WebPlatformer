@@ -100,9 +100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 248aa7bad7064a7a952337c431e7de63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteRenderer: {fileID: 0}
-  Rigidbody: {fileID: 0}
-  Collider: {fileID: 0}
+  SpriteRenderer: {fileID: 6393820810298421946}
+  transform: {fileID: 6393820810298421925}
+  Rigidbody: {fileID: 1223013158782859873}
+  Collider: {fileID: 2976761933719276532}
 --- !u!50 &1223013158782859873
 Rigidbody2D:
   serializedVersion: 4
