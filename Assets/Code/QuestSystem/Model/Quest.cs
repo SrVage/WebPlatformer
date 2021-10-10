@@ -1,7 +1,9 @@
 using System;
+using Code.QuestSystem.Interfaces;
 using Code.View;
+using UnityEngine;
 
-namespace Code.QuestSystem
+namespace Code.QuestSystem.Model
 {
     public sealed class Quest:IQuest
     {
@@ -23,23 +25,33 @@ namespace Code.QuestSystem
 
         private void Complete()
         {
-            if (_active) return;
+            if (!_active) return;
             _active = false;
             IsCompleted = true;
             _view.OnPlayerContact -= OnContact;
             _view.ProcessComplete();
+            OnComplete();
+        }
+
+        private void OnComplete()
+        {
+            Completed?.Invoke(this, this);
         }
         
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _view.OnPlayerContact -= OnContact;
         }
 
         public event EventHandler<IQuest> Completed;
         public bool IsCompleted { get; private set; }
         public void Reset()
         {
-            throw new NotImplementedException();
+            if (_active) return;
+            _active = true;
+            IsCompleted = false;
+            _view.OnPlayerContact += OnContact;
+            _view.ProcessActivate();
         }
     }
 }

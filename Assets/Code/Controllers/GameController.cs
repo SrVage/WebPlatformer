@@ -1,8 +1,10 @@
 using System;
 using Code.Controllers;
 using Code.Model;
+using Code.View;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Object = UnityEngine.Object;
 
 public class GameController : MonoBehaviour
 {
@@ -17,7 +19,7 @@ public class GameController : MonoBehaviour
     void Start()
     {
         _controllers = new Controllers();
-        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig, _camera, _sliderJoint2D, _aiConfig, _mapGenerator, _tilemap);
+        new GameInitialization(_controllers, _spriteAnimatorConfig, _playerConfig, _camera, _sliderJoint2D, _aiConfig, _mapGenerator, _tilemap, Object.FindObjectOfType<QuestConfigurator>());
         _controllers.Init();
     }
 

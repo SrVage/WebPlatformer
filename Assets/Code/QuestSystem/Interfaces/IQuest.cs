@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.PlayerLoop;
 
-namespace Code.QuestSystem
+namespace Code.QuestSystem.Interfaces
 {
     public interface IQuest:IDisposable
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Code.QuestSystem
+namespace Code.QuestSystem.Interfaces
 {
     public interface IQuestModel
     {

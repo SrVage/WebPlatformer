@@ -1,5 +1,7 @@
 using System;
+using Code.Model;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Code.View
 {
@@ -8,23 +10,26 @@ namespace Code.View
         public int ID => _id;
         public event Action<LevelObjectView> OnPlayerContact; 
         [SerializeField] private int _id;
-        [SerializeField] private Color _completeColor;
+        [SerializeField] private Sprite _completeSprite;
+        private QuestConfigurator _questConfig;
 
-        private Color _startColor;
+        private Sprite _startSprite;
 
         private void Awake()
         {
-            _startColor = SpriteRenderer.color;
+            _startSprite = SpriteRenderer.sprite;
+            _questConfig = Object.FindObjectOfType<QuestConfigurator>();
         }
 
         public void ProcessActivate()
         {
-            SpriteRenderer.color = _startColor;
+            SpriteRenderer.sprite = _startSprite;
         }
 
         public void ProcessComplete()
         {
-            SpriteRenderer.color = _completeColor;
+            SpriteRenderer.sprite = _completeSprite;
+            _questConfig.UnActivateFiring();
         }
 
         private void OnTriggerEnter2D(Collider2D other)

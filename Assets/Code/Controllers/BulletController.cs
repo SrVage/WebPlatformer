@@ -13,16 +13,24 @@ namespace Code.Controllers
         private BulletPool _bulletPool;
         private List<BulletView> _bullets = new List<BulletView>();
         private float _time;
+        private bool _isActive = true;
         
-        public BulletController(TurrelView turrel, Transform player)
+        public BulletController(TurrelView turrel, Transform player, QuestConfigurator questConfigurator)
         {
             _turrel = turrel.AimTransform;
             _player = player;
             _bulletPool = new BulletPool();
+            questConfigurator.UnActivateFiring += UnActivated;
+        }
+
+        private void UnActivated()
+        {
+            _isActive = false;
         }
 
         public void Execute(float deltaTime)
         {
+            if (!_isActive) return;
             for (int i = 0; i<_bullets.Count;i++)
             {
                 if (_bullets[i].transform.position.y < -10 || _bullets[i].Rigidbody.velocity.magnitude<0.8f)
